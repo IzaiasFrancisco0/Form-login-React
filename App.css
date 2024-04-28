@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp11858467.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario{
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.15), 0.2;
+    padding: 40px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 254, 254);
+}
+.input-field label{
+    color: white;
+}
+.container .input-field{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+color: black
+}
+.input-field input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(10, 10, 10);
+    padding: 20px 25px;
+    font-weight: 200;
+}
+.input-field input::placeholder{
+    color: #fff;
+}
+.input-field .icon{
+    position: absolute;
+    right: 25px;
+    top: 70%;
+    transform: translate(-50%);
+    font-size: 18px;
+    color: #fff;
+}
+
+.container .recall-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.recall-forget label{
+    color: #fff;
+    margin-top: 1rem;
+}
+.recal-forget input{
+    margin-right: 5px;
+}
+.recall-forget a,
+.criarConta p a{
+    color: #fff;
+    text-decoration: none;
+}
+.recall-forget a:hover,
+.criarConta p a:hover{
+    text-decoration: underline;
+    color:  rgb(236, 172, 53);
+}
+.container button{
+    margin-top: 1rem;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: none;
+}
+button:hover{
+    background-color: rgb(236, 172, 53);
+}
+.container .criarConta{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+.criarConta{
+    color: #fff;
+}
+span{
+    margin-top: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+span:hover{
+    color:  rgb(236, 172, 53);
+}
